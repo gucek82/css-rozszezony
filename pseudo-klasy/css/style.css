@@ -1,0 +1,32 @@
+a#link1:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a#link5:hover { 
+    color: black;
+    font-size: 200%; 
+    }
+p:empty {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div.tabela :first-child {
+    color: red;
+}
+
+div.tabela :nth-child(5) {
+    color: red;
+}
+
+div.tabela :last-child {
+    color: red;
+}
+
+div.tabela :nth-child(4n + 5) {
+    color: blue;

@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+}
+
+#auto1 {
+    float: left;
+}
+
+#auto2 {
+    float: right;
+}
+
+#auto2:hover {
+    float: right;
+    transform: scale(0.5);
+    transition-duration: 2s;
+}
+
+p:last-child {
+    clear: right;
+}

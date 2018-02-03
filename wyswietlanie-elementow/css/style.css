@@ -1,0 +1,24 @@
+#p1 {
+    background-color: aqua;
+} 
+
+#p2 {
+    background-color: indianred;
+}
+
+#elementy-blokowe > p {
+	display: inline;
+}
+
+#elementy-inline-block li {
+	display: inline-block;
+    background-color: aqua;
+    width: 10em;
+    height: 3em;
+    padding: 1em; 
+    }
+
+#elementy-inline-block > ul {
+	text-align: center;
+}
+ 
